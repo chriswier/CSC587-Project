@@ -8,10 +8,14 @@ How to use:
 3. Run the container -- run ./run.sh
 
 Notable paths:
+
 /code/DoHlyzer -- source code for DoHlyzer
+
 /code/test -- test CSV files generated from DoHlyzer and a labeler for DoH traffic
 
+
 Notable binaries:
+
 /usr/local/bin/dohlyzer (run in /code/DoHlyzer)
 
 TODO:
@@ -19,6 +23,9 @@ TODO:
 2. Write directions for using DoHlyzer.
 
 Example DoHlzyer usage:
+
 dohlyzer -f capture.pcap -c capture-stats.csv
+
 Label the csv file:
+
 cd /code/test/ && python3 add-labels.py
